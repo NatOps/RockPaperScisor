@@ -16,8 +16,8 @@ while True:
         print("Your Account has been setup.")
         text_file = open("accounts.txt","a")
         text_file.write("\n")
-#        text_file.write(username)
-#        text_file.write("\n")
-#        text_file.write(password)
-#        text_file.close()
+        text_file.write(username)
+        text_file.write("\n")
+        text_file.write(password)
+        text_file.close()
         break
